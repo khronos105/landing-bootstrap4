@@ -1,0 +1,261 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* ************ */
+/* Navbar */
+/* ************ */
+.navbar{
+    background: #4633af !important;
+    transition: all 0.2s;
+}
+
+/* ************ */
+/* Hero Section */
+/* ************ */
+
+.section-hero,
+.section-preview{
+    padding: 200px 0;
+    background: url("../img/section-hero/hero-background.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+/* ************ */
+/* Section Opinions */
+/* ************ */
+.section-opinions{
+    padding: 100px 0;
+    background: #262431;
+}
+#carousel-opinions .carousel-inner{
+    padding: 0 80px;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+    opacity: 1;
+    background: #262431;
+}
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover{
+    opacity: 1;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    opacity: 0.5;
+}
+
+/* ************ */
+/* Section Features */
+/* ************ */
+.section-features{
+    padding: 160px 0;
+    background: #2f2c3d;
+}
+.heading-section{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.card-icon{
+    width: 65px;
+    height: 65px;
+    position: relative;
+}
+.card-icon > i.fa-angle-double-left,
+.card-icon > i.fa-angle-double-right{
+    font-size: 30px;
+    margin-left: -2px;
+    margin-top: 1px;
+}
+.card-icon > i.fa-angle-double-down{
+    font-size: 30px;
+}
+/* Arrows animations */
+.arrow-box-wrapper:hover .card-icon > i.fa-angle-double-left{
+    transform:  translateX(5%);
+    animation: left-arrows-pulse 1500ms ease-out infinite;
+}
+.arrow-box-wrapper:hover .card-icon > i.fa-angle-double-right{
+    transform:  translateX(-5%);
+    animation: right-arrows-pulse 1500ms ease-out infinite;
+}
+
+.arrow-box-wrapper:hover .card-icon > i.fa-angle-double-down{
+    transform:  translateY(-5%);
+    animation: down-arrows-pulse 1500ms ease-out infinite;
+}
+/* Image animations */
+.section-features .box-image img{
+    transform: translateY(100px);
+    transition: all 1s;
+}
+.section-features .box-image img.active {
+    transform: translateY(0px) !important;
+}
+
+/* Setting Nav */
+.box-image{
+    padding-top: 20px;
+}
+/* Nav Tabs */
+.nav-tabs{
+    justify-content: center;
+    border: none;
+}
+.nav-tabs > .nav-link{
+    margin: 10px 0 20px;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 3px solid #f1f1f8;
+    color: #f1f1f8;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.2s ease;
+}
+.nav-tabs > .nav-link.active,
+.nav-tabs > .nav-link:hover{
+    border-bottom: 0.1875rem solid #00c9db;
+    background-color: transparent;
+    color: #00c9db;
+}
+/* ************ */
+/* Section Preview */
+/* ************ */
+.image-botton-preview-box::before,
+.image-botton-preview-box::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #17a2b8;
+    cursor: pointer;
+    transform: translateX(-50%) translateY(-50%);
+}
+.image-botton-preview-box::before{
+    animation: border-pulse 1500ms ease-out infinite;
+}
+.modal-dialog-centered{
+    max-width: 700px;
+}
+
+/* ************ */
+/* Section Details */
+/* ************ */
+.section-details{
+    background: #262431;
+    padding: 100px 0;
+}
+.box-details{
+    padding: 30px 0;
+}
+
+/* ************ */
+/* Section Contact Form */
+/* ************ */
+.section-contact-form{
+    background: #262431;
+    padding: 100px 0;
+    color: #fff;
+}
+.box-contact-info{
+    padding: 40px 0;
+}
+.contact-form-field{
+    background: #413d52;
+    color: #fff;
+    border: 1px solid #17a2b8;
+}
+.contact-form-field:focus{
+    background: #413d52;
+    color: #fff;
+}
+/* ************ */
+/* Footer */
+/* ************ */
+footer{
+    background: #262431;
+}
+.icon-footer{
+    transition: 0.5s all ease;
+}
+.icon-footer:hover{
+    background: #ffffff2e;
+}
+#map-footer{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* ************ */
+/* Section Copyright */
+/* ************ */
+.section-copyright{
+    background: #2f2c3d;
+}
+
+
+
+/* ************ */
+/* Animations */
+/* ************ */
+
+/* Features Arrows Icons Hover animation */
+@keyframes left-arrows-pulse {
+    0%{
+        transform:  translateX(5%) translateY(0);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(-10%) translateY(0);
+        opacity: 0;
+    }
+}
+@keyframes right-arrows-pulse {
+    0%{
+        transform:  translateX(-5%) translateY(0);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(10%) translateY(0);
+        opacity: 0;
+    }
+}
+
+@keyframes down-arrows-pulse {
+    0%{
+        transform:  translateY(-5%) translateY(0);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(10%) translateY(0);
+        opacity: 0;
+    }
+}
+
+/* Modal Button Pulse */
+@keyframes border-pulse {
+    0%{
+        transform: translateX(-50%) translateY(-50%) translateY(0) scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(-50%) translateY(-50%) translateY(0) scale(1.5);
+        opacity: 0;
+    }
+}
+
+/* ************ */
+/* Media Queries */
+/* ************ */
+@media(min-width: 992px){
+    /* Navbar */
+    .navbar{
+        background: transparent !important;
+    }
+    .background-scroll-down{
+        background: #4633af !important;
+    }
+}

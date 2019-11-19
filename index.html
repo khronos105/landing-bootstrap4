@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lib/fontawesome-all.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-spy="scroll" data-target="#main-navbar">
+<nav id="main-navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a href="" class="navbar-brand text-info font-weight-bold">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#features" class="nav-link">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#preview" class="nav-link">Preview</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#details" class="nav-link">Details</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section class="section-hero" id="home">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-6 d-flex align-items-center justify-content-center pb-5 text-white">
+                <div class="box-text">
+                    <h1 class="display-4">Mobile App</h1>
+                    <p class="lead">
+                        New mobile app with everything you need, easy to use. <br>
+                        Learn how to start the right way.
+                    </p>
+                    <hr class="my-4">
+                    <p>Download it today.</p>
+                    <a href="" class="btn btn-info">
+                        <i class="fab fa-apple"></i>
+                        <span>APPLE STORE</span>
+                    </a>
+                    <a href="" class="btn btn-info">
+                        <i class="fab fa-google-play"></i>
+                        <span>PLAY STORE</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="box-image">
+                    <img src="./img/section-hero/pantalla-1.png" alt="smartphone-hero" width="50%" height="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-opinions text-white">
+    <div class="container">
+        <div id="carousel-opinions" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row text-center">
+                        <div class="col-12 col-md-4">
+                            <h4>Title</h4>
+                            <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                aperiam beatae commodi consequuntur dicta</p>
+                            <small>- title -</small>
+                        </div>
+                        <div class="d-none d-md-block col-md-4">
+                            <h4>Title</h4>
+                            <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                aperiam beatae commodi consequuntur dicta</p>
+                            <small>- title -</small>
+                        </div>
+                        <div class="d-none d-md-block col-md-4">
+                            <h4>Title</h4>
+                            <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                aperiam beatae commodi consequuntur dicta</p>
+                            <small>- title -</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row text-center">
+                        <div class="col-12 col-md-4">
+                            <h4>Title</h4>
+                            <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                aperiam beatae commodi consequuntur dicta</p>
+                            <small>- title -</small>
+                        </div>
+                        <div class="d-none d-md-block col-md-4">
+                            <h4>Title</h4>
+                            <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                aperiam beatae commodi consequuntur dicta</p>
+                            <small>- title -</small>
+                        </div>
+                        <div class="d-none d-md-block col-md-4">
+                            <h4>Title</h4>
+                            <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                aperiam beatae commodi consequuntur dicta</p>
+                            <small>- title -</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row text-center">
+                        <div class="col-12 col-md-4">
+                            <h4>Title</h4>
+                            <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                aperiam beatae commodi consequuntur dicta</p>
+                            <small>- title -</small>
+                        </div>
+                        <div class="d-none d-md-block col-md-4">
+                            <h4>Title</h4>
+                            <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                aperiam beatae commodi consequuntur dicta</p>
+                            <small>- title -</small>
+                        </div>
+                        <div class="d-none d-md-block col-md-4">
+                            <h4>Title</h4>
+                            <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                aperiam beatae commodi consequuntur dicta</p>
+                            <small>- title -</small>
+                        </div>
+                    </div>
+                </div>
+                <a href="#carousel-opinions" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a href="#carousel-opinions" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-features text-white" id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="heading-section">Features</h2>
+                <p class="lead">
+                    New mobile app with everything you need, easy to use. <br>
+                    Learn how to start the right way.
+                </p>
+                <hr class="my-4">
+            </div>
+        </div>
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-workout-tab" data-toggle="tab" href="#nav-workout"
+                   role="tab" aria-controls="nav-workout" aria-selected="true">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>Workout</span>
+                </a>
+                <a class="nav-item nav-link" id="nav-settings-tab" data-toggle="tab" href="#nav-settings" role="tab"
+                   aria-controls="nav-settings" aria-selected="false">
+                    <i class="fas fa-cog"></i>
+                    <span>Settings</span>
+                </a>
+                <a class="nav-item nav-link" id="nav-goals-tab" data-toggle="tab" href="#nav-goals" role="tab"
+                   aria-controls="nav-goals" aria-selected="false">
+                    <i class="fas fa-trophy"></i>
+                    <span>Goals</span>
+                </a>
+            </div>
+        </nav>
+        <!-- ########## Workout TAB ########## -->
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-workout" role="tabpanel" aria-labelledby="nav-workout-tab">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card mb-3 bg-transparent border-0 arrow-box-wrapper">
+                            <div class="row no-gutters">
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <h5>Card Title</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur enim
+                                            nostrum praesentium quas sit?
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="box-icon w-100 h-100 d-flex justify-content-center align-items-center">
+                                        <div class="card-icon rounded-circle text-center border border-info">
+                                            <i class="fas fa-angle-double-left p-3 text-info"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 bg-transparent border-0 arrow-box-wrapper">
+                            <div class="row no-gutters">
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <h5>Card Title</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur enim
+                                            nostrum praesentium quas sit?
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="box-icon w-100 h-100 d-flex justify-content-center align-items-center">
+                                        <div class="card-icon rounded-circle text-center border border-info">
+                                            <i class="fas fa-angle-double-left p-3 text-info"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 bg-transparent border-0 arrow-box-wrapper">
+                            <div class="row no-gutters">
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <h5>Card Title</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur enim
+                                            nostrum praesentium quas sit?
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="box-icon w-100 h-100 d-flex justify-content-center align-items-center">
+                                        <div class="card-icon rounded-circle text-center border border-info">
+                                            <i class="fas fa-angle-double-left p-3 text-info"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="box-image w-100 h-100 d-flex justify-content-center align-items-center mb-3">
+                            <img class="img-fluid active" src="./img/section-nav/workout.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card mb-3 bg-transparent border-0 arrow-box-wrapper">
+                            <div class="row no-gutters">
+                                <div class="col-sm-4">
+                                    <div class="box-icon w-100 h-100 d-flex justify-content-center align-items-center">
+                                        <div class="card-icon rounded-circle text-center border border-info">
+                                            <i class="fas fa-angle-double-right p-3 text-info"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <h5>Card Title</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur enim
+                                            nostrum praesentium quas sit?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 bg-transparent border-0 arrow-box-wrapper">
+                            <div class="row no-gutters">
+                                <div class="col-sm-4">
+                                    <div class="box-icon w-100 h-100 d-flex justify-content-center align-items-center">
+                                        <div class="card-icon rounded-circle text-center border border-info">
+                                            <i class="fas fa-angle-double-right p-3 text-info"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <h5>Card Title</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur enim
+                                            nostrum praesentium quas sit?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 bg-transparent border-0 arrow-box-wrapper">
+                            <div class="row no-gutters">
+                                <div class="col-sm-4">
+                                    <div class="box-icon w-100 h-100 d-flex justify-content-center align-items-center">
+                                        <div class="card-icon rounded-circle text-center border border-info">
+                                            <i class="fas fa-angle-double-right p-3 text-info"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="card-body">
+                                        <h5>Card Title</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur enim
+                                            nostrum praesentium quas sit?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--     Setting TAB       -->
+            <div class="tab-pane fade" role="tabpanel" id="nav-settings" aria-labelledby="nav-settings-tab">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="box-image w-100 h-100 d-flex justify-content-center align-items-center mb-3">
+                            <img src="img/section-nav/settings.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="box-settings w-100 h-100 d-flex flex-column justify-content-center align-items-center mb-3">
+                            <div class="row">
+                                <div class="col-md-6 arrow-box-wrapper mb-5">
+                                    <div class="box-icon d-flex justify-content-center align-items-center">
+                                        <div class="card-icon rounded-circle text-center border border-info">
+                                            <i class="fas fa-angle-double-down p-3 text-info"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Card Title</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aliquam, commodi cupiditate distincti
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 arrow-box-wrapper mb-5">
+                                    <div class="box-icon d-flex justify-content-center align-items-center">
+                                        <div class="card-icon rounded-circle text-center border border-info">
+                                            <i class="fas fa-angle-double-down p-3 text-info"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Card Title</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aliquam, commodi cupiditate distincti
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 arrow-box-wrapper mb-5">
+                                    <div class="box-icon d-flex justify-content-center align-items-center">
+                                        <div class="card-icon rounded-circle text-center border border-info">
+                                            <i class="fas fa-angle-double-down p-3 text-info"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Card Title</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aliquam, commodi cupiditate distincti
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 arrow-box-wrapper mb-5">
+                                    <div class="box-icon d-flex justify-content-center align-items-center">
+                                        <div class="card-icon rounded-circle text-center border border-info">
+                                            <i class="fas fa-angle-double-down p-3 text-info"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Card Title</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aliquam, commodi cupiditate distincti
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--      Goals TAB      -->
+            <div class="tab-pane fade" role="tabpanel" id="nav-goals" aria-labelledby="nav-goals-tab">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="box-settings w-100 h-100 d-flex flex-column justify-content-center align-items-center mb-3">
+                            <div class="row">
+                                <div class="col-md-6 arrow-box-wrapper">
+                                    <div class="box-icon d-flex justify-content-center align-items-center">
+                                        <div class="card-icon rounded-circle text-center border border-info">
+                                            <i class="fas fa-angle-double-down p-3 text-info"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Card Title</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aliquam, commodi cupiditate distincti
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 arrow-box-wrapper">
+                                    <div class="box-icon d-flex justify-content-center align-items-center">
+                                        <div class="card-icon rounded-circle text-center border border-info">
+                                            <i class="fas fa-angle-double-down p-3 text-info"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Card Title</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aliquam, commodi cupiditate distincti
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 arrow-box-wrapper">
+                                    <div class="box-icon d-flex justify-content-center align-items-center">
+                                        <div class="card-icon rounded-circle text-center border border-info">
+                                            <i class="fas fa-angle-double-down p-3 text-info"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Card Title</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aliquam, commodi cupiditate distincti
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 arrow-box-wrapper">
+                                    <div class="box-icon d-flex justify-content-center align-items-center">
+                                        <div class="card-icon rounded-circle text-center border border-info">
+                                            <i class="fas fa-angle-double-down p-3 text-info"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Card Title</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aliquam, commodi cupiditate distincti
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="box-image w-100 h-100 d-flex justify-content-center align-items-center mb-3">
+                            <img src="img/section-nav/goals.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-preview" id="preview">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center text-white">
+                    <h2 class="heading-section">Preview</h2>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-12">
+               <div class="box-image vide text-center">
+                   <a class="d-none d-md-block" data-toggle="modal" data-target="#preview-modal">
+                       <div class="image-botton-preview-box">
+                           <img src="img/section-preview/section-preview-button.jpg" class="img-fluid" alt="">
+                       </div>
+                   </a>
+                   <a href="https://www.youtube.com/watch?v=fjYptQjF1Tw" class="d-md-none" target="_blank">
+                       <div class="image-botton-preview-box">
+                           <img src="img/section-preview/section-preview-button.jpg" class="img-fluid" alt="">
+                       </div>
+                   </a>
+               </div>
+               <div class="modal fade" id="preview-modal" tabindex="-1" role="dialog" aria-labelledby="preview-modal" aria-hidden="true"> 
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <div class="iframe-youtube-box d-flex">
+                                    <iframe src="https://www.youtube.com/embed/fjYptQjF1Tw" frameborder="0" width="100%" height="400px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+           </div>
+        </div>
+    </div>
+</section>
+<section class="section-details" id="details">
+    <div class="box-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="img/section-details/section-details-1.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="card bg-transparent border-0 text-white">
+                        <div class="card-body">
+                            <h3 class="card-title">Card title</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                            <a href="" class="btn btn-info">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="card bg-transparent border-0 text-white">
+                        <div class="card-body">
+                            <h3 class="card-title">Card title</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                            <a href="" class="btn btn-info">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/section-details/section-details-2.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-contact-form" id="contact">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="heading-center">
+                Contact
+            </h2>
+            <p class="lead">
+                If you have any quesiton, feel free to contact us.
+            </p>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="box-contact-info d-flex h-100 justify-content-center align-items-center">
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fas fa-map-marker-alt text-info"></i>
+                            <span>Palo Alto, California</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone text-info"></i>
+                            <span>+34-642-316-105</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope text-info"></i>
+                            <span><a href="mailto:romabilibov@gmail.com" class="text-white">romabilibov@gmail.com</a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="box-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control contact-form-field" id="name-field" placeholder="Name" required>
+                            <small id="name-help" class="form-text text-muted">We will like to know you</small>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control contact-form-field" id="email-field" placeholder="Email" required>
+                            <small id="email-help" class="form-text text-muted">We won't share your email</small>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control contact-form-field" id="comment-field" rows="3"></textarea>
+                            <small id="comment-help" class="form-text text-muted">Insert your message</small>
+                        </div>
+                        <button class="btn btn-lg btn-outline-info btn-block" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="py-5 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="box-footer">
+                    <h4 class="text-white">Social Media</h4>
+                    <div class="box-icons d-flex justify-content-around p-4">
+                        <div class="icon-footer rounded-circle text-center border border-info">
+                            <a href="">
+                                <i class="fab fa-twitter text-info p-3"></i>
+                            </a>
+                        </div>
+                        <div class="icon-footer rounded-circle text-center border border-info">
+                            <a href="">
+                                <i class="fab fa-facebook text-info p-3"></i>
+                            </a>
+                        </div>
+                        <div class="icon-footer rounded-circle text-center border border-info">
+                            <a href="">
+                                <i class="fab fa-linkedin text-info p-3"></i>
+                            </a>
+                        </div>
+                        <div class="icon-footer rounded-circle text-center border border-info">
+                            <a href="">
+                                <i class="fab fa-instagram text-info p-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="box-footer">
+                    <h4>Map</h4>
+                    <div class="box-map p-4">
+                        <iframe id="map-footer" width="290" height="240" frameborder="0" style="border:0;" allowfullscreen="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48556.89223294188!2d-3.597003324827466!3d40.47956190238422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4231eabf32f44d%3A0x4b316e17a87c6559!2sAeropuerto%2C%2028042%20Madrid!5e0!3m2!1ses!2ses!4v1574110422017!5m2!1ses!2ses" ></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="box-footer text-white">
+                    <h4>About Us</h4>
+                    <div class="box-about-us p-4">
+                        <p class="text-muted">
+                            We love what we do, and we do our best.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<section class="section-copyright">
+    <p class="text-muted text-center p-2 m-0">
+        Copyright &copy; Khronos Web 2019
+    </p>
+</section>
+
+<script src="js/lib/jquery-3.4.1.min.js"></script>
+<script src="js/lib/popper.min.js"></script>
+<script src="js/lib/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
